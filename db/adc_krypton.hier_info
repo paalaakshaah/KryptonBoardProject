@@ -1,0 +1,29 @@
+|adc_krypton
+cs_n => led[0]~reg0.ACLR
+cs_n => led[1]~reg0.ACLR
+cs_n => led[2]~reg0.ACLR
+cs_n => led[3]~reg0.ACLR
+cs_n => led[4]~reg0.ACLR
+cs_n => led[5]~reg0.ACLR
+cs_n => led[6]~reg0.ACLR
+cs_n => led[7]~reg0.ACLR
+cs_n => count.ACLR
+cs_n => clk_temp.OUTPUTSELECT
+ch[0] => ~NO_FANOUT~
+ch[1] => ~NO_FANOUT~
+ch[2] => ~NO_FANOUT~
+clk => clk_temp.DATAB
+dout[0] => ~NO_FANOUT~
+dout[1] => ~NO_FANOUT~
+dout[2] => ~NO_FANOUT~
+dout[3] => ~NO_FANOUT~
+dout[4] => ~NO_FANOUT~
+dout[5] => ~NO_FANOUT~
+dout[6] => ~NO_FANOUT~
+dout[7] => ~NO_FANOUT~
+dout[8] => ~NO_FANOUT~
+dout[9] => ~NO_FANOUT~
+dout[10] => ~NO_FANOUT~
+dout[11] => ~NO_FANOUT~
+
+
